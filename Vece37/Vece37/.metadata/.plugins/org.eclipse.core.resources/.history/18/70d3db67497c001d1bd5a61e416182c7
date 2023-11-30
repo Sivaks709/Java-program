@@ -1,0 +1,12 @@
+package prog;
+
+import java.util.Arrays;
+
+public class Imp {
+
+	public static void main(String[] args) {
+		char[]ch= {'a','A','o','P','H'};
+		Arrays.sort(ch);
+		System.out.println(ch);
+	}
+}

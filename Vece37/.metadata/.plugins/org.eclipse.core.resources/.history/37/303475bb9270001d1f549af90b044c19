@@ -1,0 +1,13 @@
+package tostring;
+
+public class Student extends Object{
+
+	//11 NSM
+	// toString()  {----Dev Instr----}
+	public static void main(String[] args) {
+		Object ref=new Student();
+		System.out.println(ref);//.toString()
+		String res=ref.toString();
+		System.out.println(res);
+	}
+}

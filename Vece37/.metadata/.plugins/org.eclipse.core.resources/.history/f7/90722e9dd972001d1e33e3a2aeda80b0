@@ -1,0 +1,20 @@
+
+public class Student {
+
+	//data mem
+	String name;
+	double marks;
+	
+	//const
+	public Student()
+		{
+			super();
+		}
+	public Student(String name, double marks) {
+		super();
+		this.name = name;
+		this.marks = marks;
+	}
+	
+	
+}

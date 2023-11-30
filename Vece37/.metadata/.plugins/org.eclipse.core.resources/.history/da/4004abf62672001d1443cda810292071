@@ -1,0 +1,9 @@
+
+public class A3 {
+
+	public static void main(String[] args) {
+		char []ch;
+		ch=new char[3];
+		System.out.println(ch[0]);
+	}
+}

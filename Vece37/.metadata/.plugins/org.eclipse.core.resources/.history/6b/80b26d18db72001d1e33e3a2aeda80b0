@@ -1,0 +1,8 @@
+
+public class Result {
+
+	public static void main(String[] args) {
+		Student[]a= {new Student("Avinash",98),new Student("Rajesh",99.5),new Student("Bharath",34),new Student("Tabrez",10)};
+		System.out.println(a[0]);
+	}
+}

@@ -1,0 +1,14 @@
+package equals;
+
+public class Driver1 {
+
+	public static void main(String[] args) {
+		Apple ref1=new Apple();
+		Mango ref2=new Mango();
+		//current obj is ref 1 and passed obj is ref2
+		System.out.println(ref1.equals(ref2));//false
+		System.out.println(ref2.equals(ref1));//false
+		System.out.println(ref1.equals(ref1));//true
+		System.out.println(ref2.equals(ref2));//true
+	}
+}

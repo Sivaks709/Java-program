@@ -1,0 +1,13 @@
+package prog;
+//String--->character Array
+public class S1 {
+
+	public static void main(String[] args) {
+		String s="Java";
+		char ch[]=new char[s.length()];
+		for (int index = 0; index < ch.length; index++) {
+			ch[index] = s.charAt(index);
+			
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package tostring;
+
+public class DriverStudent {
+
+	public static void main(String[] args) {
+		Student ref=new Student();
+		System.out.println(ref);
+	}
+}

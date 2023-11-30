@@ -1,0 +1,11 @@
+
+public class A6 {
+
+	public static void main(String[] args) {
+		char[]ch= {'A','B','C','D','E'};
+		
+		for (int index = 0; index < ch.length; index++) {
+			System.out.println(ch[index]);
+		}
+	}
+}

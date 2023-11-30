@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+E:\Vece37\.metadata\.plugins\org.eclipse.jdt.core
+2178751970.index
+75931715.index
+2910652658.index
+1865797976.index

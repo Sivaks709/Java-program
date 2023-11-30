@@ -1,0 +1,6 @@
+package equals;
+
+public class Apple extends Object{
+
+	double price=186;
+}

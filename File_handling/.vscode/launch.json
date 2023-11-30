@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FileCreation",
+            "request": "launch",
+            "mainClass": "FileCreation",
+            "projectName": "File_handling_95926ab5"
+        },
+        {
+            "type": "java",
+            "name": "Read_Data_From_File",
+            "request": "launch",
+            "mainClass": "Read_Data_From_File",
+            "projectName": "File_handling_95926ab5"
+        },
+        {
+            "type": "java",
+            "name": "Read_The_Data_In_ByteMode",
+            "request": "launch",
+            "mainClass": "Read_The_Data_In_ByteMode",
+            "projectName": "File_handling_95926ab5"
+        },
+        {
+            "type": "java",
+            "name": "CreateFile",
+            "request": "launch",
+            "mainClass": "Test.CreateFile",
+            "projectName": "File_handling_95926ab5"
+        },
+        {
+            "type": "java",
+            "name": "Read_Byte_Mode",
+            "request": "launch",
+            "mainClass": "Test.Read_Byte_Mode",
+            "projectName": "File_handling_95926ab5"
+        },
+        {
+            "type": "java",
+            "name": "str1",
+            "request": "launch",
+            "mainClass": "Test.String_for_Kathir.Test.String_for_Kathir.str1",
+            "projectName": "File_handling_95926ab5"
+        },
+        {
+            "type": "java",
+            "name": "WriteFile",
+            "request": "launch",
+            "mainClass": "Test.WriteFile",
+            "projectName": "File_handling_95926ab5"
+        },
+        {
+            "type": "java",
+            "name": "read_mode",
+            "request": "launch",
+            "mainClass": "Test.read_mode",
+            "projectName": "File_handling_95926ab5"
+        },
+        {
+            "type": "java",
+            "name": "Write_Data_Into_File",
+            "request": "launch",
+            "mainClass": "Write_Data_Into_File",
+            "projectName": "File_handling_95926ab5"
+        },
+        {
+            "type": "java",
+            "name": "dee",
+            "request": "launch",
+            "mainClass": "dee",
+            "projectName": "File_handling_95926ab5"
+        }
+    ]
+}

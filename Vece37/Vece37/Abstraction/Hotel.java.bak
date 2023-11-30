@@ -1,0 +1,9 @@
+abstract class Hotel 
+{
+	//Specify my Features
+	abstract public void biryani();
+}
+abstract class Chef extends Hotel
+{
+	//biryani()
+}

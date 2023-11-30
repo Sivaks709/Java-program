@@ -1,0 +1,17 @@
+package prog;
+
+public class S5 {
+
+	public static void main(String[] args) {
+		String s1="hi Iam Spider";
+		char[]ch=toCharArray(s1);
+		System.out.println(ch);
+	}
+	public static char[] toCharArray(String str) {
+		char ch[] = new char[str.length()];
+		for (int index = 0; index < str.length(); index++) {
+				ch[index]=str.charAt(index);
+		}
+		return ch;
+	}
+}

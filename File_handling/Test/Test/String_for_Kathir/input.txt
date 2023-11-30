@@ -1,0 +1,7 @@
+This program will read the file line by line and 
+split each line into words. It will then check if the 
+word to be found is in the current line. If it is, the 
+program will print a message to the console and return. 
+If the word is not found in the current line, the program will
+continue to the next line. If the word is not found in the entire file, 
+the program will print a message to the console stating that the word was not found.

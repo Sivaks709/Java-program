@@ -1,0 +1,5 @@
+//BluePrint
+class Mobile
+{
+
+}

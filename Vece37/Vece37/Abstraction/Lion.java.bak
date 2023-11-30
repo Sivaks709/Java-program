@@ -1,0 +1,18 @@
+abstract class Animal 
+{
+	abstract public void food();
+	abstract public void legs();
+}
+class Dog extends Animal
+{
+
+}
+
+class Lion extends Animal
+{
+}
+
+class Tiger extends Animal
+{
+
+}

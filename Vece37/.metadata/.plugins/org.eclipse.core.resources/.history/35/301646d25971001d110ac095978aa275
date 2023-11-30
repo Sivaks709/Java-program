@@ -1,0 +1,20 @@
+package equals;
+
+public class Driver1 {
+
+	public static void main(String[] args) {
+		Apple ref1=new Apple();
+		Mango ref2=new Mango();
+	
+		if(ref1.equals(ref2))
+			System.out.println("Apple States and Mango States are Same");
+		else
+			System.out.println("Apple States and Mango states are Not Same");
+	
+		if(ref2.equals(ref1))
+			System.out.println("Mango States and Apple States are Same");
+		else
+			System.out.println("Mango States and Apple States are NotSame");
+		
+	}
+}

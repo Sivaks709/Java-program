@@ -1,0 +1,9 @@
+//Trying to Print characters of specific Index
+public class S2 {
+
+	public static void main(String[] args) {
+		String s1="Java";
+		//Length
+		System.out.println("Length :"+s1.length());
+	}
+}

@@ -1,0 +1,15 @@
+
+public class LinearSearch {
+
+	public static void main(String[] args) {
+
+		int []b= {4,6,2,3,8,9};
+		linearSearch(b);
+	}
+
+	public static String linearSearch(int[] a) {
+
+		System.out.println(a[0]);
+		return "";
+	}
+}

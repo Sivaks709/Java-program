@@ -1,0 +1,19 @@
+//Q.5 Zig Zag
+public class ZigZag {
+
+	public static void main(String[] args) {
+		int []a= {1,2,3,4,5};
+		int[]b= {6,7,8,9,10};
+		int [] res=new int[a.length+b.length];
+		System.out.println("a->1 2 3 4 5");
+		System.out.println("b->6 7 8 9 10");
+		for (int index = 0,m=0,n=0; index < res.length; index++) {
+			if(index%2==0)
+				res[index]=a[m++];
+			else
+				res[index]=a[n++];
+			
+			System.out.println("res["+index+"]->"+res[index]);
+		}
+	}
+}

@@ -1,0 +1,11 @@
+
+public class E1 {
+
+	public static void main(String[] args) {
+		System.out.println("Planned Start");
+		System.out.println(1/1);
+		System.out.println(4/0);//ArthmaticException
+		System.out.println(5);
+		System.out.println("Planned Stop");
+	}
+}

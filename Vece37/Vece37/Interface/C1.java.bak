@@ -1,0 +1,11 @@
+interface I1
+{
+	void dance();
+}
+interface I2
+{
+	void demo();
+}
+abstract class C1 implements I1,I2
+{
+}

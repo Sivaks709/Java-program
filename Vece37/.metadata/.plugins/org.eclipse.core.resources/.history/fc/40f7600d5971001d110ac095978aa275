@@ -1,0 +1,12 @@
+package equals;
+
+public class Apple extends Object{
+
+	//11 NSM
+	double price=186;
+}
+class Mango{
+	
+	double price=145;
+	//11 NSM
+}
