@@ -1,8 +1,8 @@
 package Test.String_for_Kathir.Test.String_for_Kathir;
 
-import java.util.Comparator;
+// import java.util.Comparator;
 import java.util.Scanner;
-import java.util.TreeSet;
+// import java.util.TreeSet;
 
 // public class str1 {
 //     public static void main(String[] args) {

@@ -7,9 +7,8 @@ public class FileCreation {
         try {
             if (file.createNewFile()) {
                 System.out.println("File Created...");
-            }
-            else{
-                System.out.println("File Already Created...");
+            } else {
+                System.out.println("File Already Exist...");
             }
         } catch (IOException e) {
             System.out.println("Something Wrong Pls Check Your Statements...");
