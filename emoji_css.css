@@ -1,0 +1,69 @@
+body{
+    background-color: gray;
+}
+.face{
+    height: 500px;
+    width: 500px;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    margin: 150px auto;
+}
+.eye1{
+    height: 125px;
+    width: 125px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+.eye2{
+    height: 125px;
+    width: 125px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 310px;
+}
+.iball1{
+    width:35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    margin: 45px auto;
+}
+.eye1,.eye2{
+    animation-name: run_emoji;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes run_emoji{
+   0%{
+    transform: rotate(-360deg) ;
+   }
+}
+
+.tongue{
+    height: 10px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: black;
+    position: absolute;
+    top: 350px;
+    left: 175px;
+}
+.come-out{
+    height: 10px;
+    width: 100px;
+    margin: auto;
+    border-radius: 0px 0px 50px 50px;
+}
+.come-out:hover{
+    height: 100px;
+    background-color: crimson;
+    transition: height 2s;
+}
