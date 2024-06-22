@@ -4,8 +4,8 @@ class Main {
   public static int RecursionChallenge(int num) {
     if(num!=0){
       fact*=num;
-      num--;
-      RecursionChallenge(num);
+      // num--;
+      RecursionChallenge(--num);
     }
     return fact;
   }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Fetch_FilesAndFolder",
+            "request": "launch",
+            "mainClass": "Fetch_FilesAndFolder",
+            "projectName": "File_handling_95926ab5"
+        },
+        {
+            "type": "java",
             "name": "Create_Folder",
             "request": "launch",
             "mainClass": "Create_Folder",
