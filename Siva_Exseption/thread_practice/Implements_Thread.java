@@ -22,7 +22,7 @@ public class Implements_Thread {
         InnerImplements_Thread_1 obj1 = new InnerImplements_Thread_1();
         InnerImplements_Thread obj2 = new InnerImplements_Thread();
         Thread t1  = new Thread(obj1);
-        Thread t2  = new Thread(obj1);
+        Thread t2  = new Thread(obj2);
         t1.start();
         t2.start();
     }
